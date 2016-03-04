@@ -13,3 +13,7 @@ Em Development deploys the following to our managed instalation of Club System;
 ## Maintenance
 
 TSC can then deploy changes by merging changes into `styles.css` in the `master` branch.  Changes to images still need to be done by Em Dev.
+
+## Testing
+
+The `Example screenshots` directory shows how the styled pages should look once styles are applied correctly.
