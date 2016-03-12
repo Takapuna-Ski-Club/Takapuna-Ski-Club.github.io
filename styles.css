@@ -51,8 +51,6 @@ button {
 #timer + .small,
 /* Hide the page title on the homepage, which also immediately follows the timer in the DOM, because there are no breadcrumbs on the homepage. */
 #timer + h1,
-/* Hide the Club System app and database version numbers. */
-#ctl00_litVersion,
 /* Hide the footer (date and duplicate menu links). */
 #footercontainer {
   display: none;
