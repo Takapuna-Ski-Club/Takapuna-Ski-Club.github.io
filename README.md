@@ -6,7 +6,7 @@
 
 Em Development deploys the following to our managed instalation of Club System;
 
-- `takapuna.css` Note the redirect.  See "Redirects" in this document.
+- `takapuna.css` Note the redirect.  See [Redirects](#redirects) in this document.
 - `leftimage.jpg`
 - `rightimage.jpg`
 
@@ -22,7 +22,7 @@ The `Example screenshots` directory shows how the styled pages should look once 
 
 Some redirects are configured in [CloudFlare](https://www.cloudflare.com/a/page-rules/takapunaskiclub.nz).  CloudFlare is an HTTP proxy and CDN. CloudFlare also hosts DNS records for `takapunaskiclub.nz`.
 
-The redirects only impact `members.takapunaskiclub.nz`.  To bypass CloudFlare and test Club System directly, use ['takapuna.emdev.com.au`](http://takapuna.emdev.com.au/).
+The redirects only impact `members.takapunaskiclub.nz`.  To bypass CloudFlare and test Club System directly, use [`takapuna.emdev.com.au`](http://takapuna.emdev.com.au/).
 
 The redirects are;
 
