@@ -27,7 +27,7 @@ The redirects only impact `members.takapunaskiclub.nz`.  To bypass CloudFlare an
 The redirects are;
 
 1. Insecure HTTP to secure HTTPS, with a shared CloudFlare SSL certificate
-2. `*members.takapunaskiclub.nz/functional/styles/takapuna.css?*` to [`https://takapuna-ski-club.github.io/styles.css`](https://takapuna-ski-club.github.io/styles.css)
+2. `*members.takapunaskiclub.nz/functional/styles/takapuna.css?*` to [`https://takapuna-ski-club.github.io/source/styles.css`](https://takapuna-ski-club.github.io/styles.css)
 3. `*members.takapunaskiclub.nz/content/contactus.aspx` to [`http://www.takapunaskiclub.nz/contact`](http://www.takapunaskiclub.nz/contact)
 
 ## Screenshot of page rules (redirects) in CloudFlare
