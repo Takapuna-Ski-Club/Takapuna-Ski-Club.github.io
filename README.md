@@ -2,17 +2,24 @@
 
 **EmDev** manages an instalation of their **Club System** web application for **Takapuna Ski Club (TSC)**.  This is customized for TSC via configuration parameters, two images and one stylesheet.
 
-## Installation
+## Install and deploy
 
 Em Development deploys the following to our managed instalation of Club System;
 
-- `source/takapuna.css` Note the redirect.  See [Redirects](#redirects) in this document.
+- `source/takapuna.css`
 - `source/leftimage.jpg`
 - `source/rightimage.jpg`
 
+GitHub automatically deploys this repository to `http://takapuna-ski-club.github.io`;
+
+- Only `source/styles.css` needs to be served publicly.
+- On Club System, [`/functional/styles/takapuna.css`](http://takapuna.emdev.com.au/functional/styles/takapuna.css) [`@import`](https://developer.mozilla.org/en/docs/Web/CSS/@import)s it.
+- On `members.takapunaskiclub.nz`, CloudFlare redirects it directly to the GitHub-hosted `styles.css` ([`takapuna-ski-club.github.io/source/styles.css`](http://takapuna-ski-club.github.io/source/styles.css)).
+- `index.html` redirects any wandering or mis-directed traffic from `http://takapuna-ski-club.github.io/` to the public website at [`www.takapunaskiclub.nz`](http://www.takapunaskiclub.nz/).
+
 ## Maintenance
 
-TSC can then deploy changes by merging changes into `styles.css` in the `master` branch.  Changes to images still need to be done by Em Dev.
+TSC can then deploy changes by merging changes into `source/styles.css` in the `master` branch of this repository.  Changes to images still need to be done by EmDev.
 
 ## Testing
 
