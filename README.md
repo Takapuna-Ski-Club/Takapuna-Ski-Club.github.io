@@ -1,14 +1,14 @@
 # Custom styles for Club System
 
-**Em Development** manages an instalation of their **Club System** web application for **Takapuna Ski Club (TSC)**.  This is customized for TSC via configuration parameters, two images and one stylesheet.
+**EmDev** manages an instalation of their **Club System** web application for **Takapuna Ski Club (TSC)**.  This is customized for TSC via configuration parameters, two images and one stylesheet.
 
 ## Installation
 
 Em Development deploys the following to our managed instalation of Club System;
 
-- `takapuna.css` Note the redirect.  See [Redirects](#redirects) in this document.
-- `leftimage.jpg`
-- `rightimage.jpg`
+- `source/takapuna.css` Note the redirect.  See [Redirects](#redirects) in this document.
+- `source/leftimage.jpg`
+- `source/rightimage.jpg`
 
 ## Maintenance
 
