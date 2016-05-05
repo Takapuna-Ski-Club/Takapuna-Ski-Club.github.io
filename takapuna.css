@@ -1,1 +1,10 @@
-@import https://raw.githubusercontent.com/Takapuna-Ski-Club/club-system-styles/master/styles.css;
+/**
+ * EmDev hosts this file on Club System.
+ *
+ * As a reference for EmDev, this file is version-controlled on GitHub.
+ *
+ * @see https://github.com/Takapuna-Ski-Club/Takapuna-Ski-Club.github.io
+ */
+
+/* Import TSC's custom styles (hosted externally). */
+@import https://takapuna-ski-club.github.io/styles.css;
