@@ -39,3 +39,11 @@ The redirects are;
 
 ## Screenshot of page rules (redirects) in CloudFlare
 ![Screenshot of page rules (redirects) in CloudFlare](CloudFlare-PageRules-Screenshot.png)
+
+## Insecure connection
+
+Despite secure HTTPS on `members.takapunaskiclub.nz`, data is only encrypted between CloudFlare and members' devices.  Data is not encrypted between EmDev and CloudFlare servers.  This can be enabled in CloudFlare easily if/when secure HTTPS is supported on EmDev's server.
+
+See [cloudflare.com/ssl](https://www.cloudflare.com/ssl/) for more detail.
+
+Currently our SSL setting is "Flexible".  It can be set to "Full" to enable end-to-end encryption.
