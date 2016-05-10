@@ -42,7 +42,7 @@ The redirects are;
 
 ## Insecure connection
 
-Despite secure HTTPS on `members.takapunaskiclub.nz`, data is only encrypted between CloudFlare and members' devices.  Data is not encrypted between EmDev and CloudFlare servers.  This can be enabled in CloudFlare easily if/when secure HTTPS is supported on EmDev's server.
+Despite secure HTTPS on `members.takapunaskiclub.nz`, data is only encrypted between CloudFlare and members' devices.  Data is not encrypted between EmDev and CloudFlare servers.  This can be enabled in CloudFlare easily if we add secure HTTPS to Club System.  EmDev offers this feature for a fee.
 
 See [cloudflare.com/ssl](https://www.cloudflare.com/ssl/) for more detail.
 
