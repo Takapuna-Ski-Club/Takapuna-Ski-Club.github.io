@@ -1,6 +1,6 @@
 # Custom styles for Club System
 
-**EmDev** manages an instalation of their **Club System** web application for **Takapuna Ski Club (TSC)**.  This is customized for TSC via configuration parameters, two images and one stylesheet.
+**EM Dev** manages an instalation of their **Club System** web application for **Takapuna Ski Club (TSC)**.  This is customized for TSC via configuration parameters, two images and one stylesheet.
 
 ## Install and deploy
 
@@ -19,7 +19,7 @@ GitHub automatically deploys this repository to `http://takapuna-ski-club.github
 
 ## Maintenance
 
-TSC can then deploy changes by merging changes into `source/styles.css` in the `master` branch of this repository.  Changes to images still need to be done by EmDev.
+TSC can then deploy changes by merging changes into `source/styles.css` in the `master` branch of this repository.  Changes to images still need to be done by EM Dev.
 
 ## Testing
 
@@ -42,7 +42,7 @@ The redirects are;
 
 ## Insecure connection
 
-Despite secure HTTPS on `members.takapunaskiclub.nz`, data is only encrypted between CloudFlare and members' devices.  Data is not encrypted between EmDev and CloudFlare servers.  This can be enabled in CloudFlare easily if we add secure HTTPS to Club System.  EmDev offers this feature for a fee of $200 per year.
+Despite secure HTTPS on `members.takapunaskiclub.nz`, data is only encrypted between CloudFlare and members' devices.  Data is not encrypted between EM Dev and CloudFlare servers.  This can be enabled in CloudFlare easily if we add secure HTTPS to Club System.  EM Dev offers this feature for a fee of $200 per year.
 
 See [cloudflare.com/ssl](https://www.cloudflare.com/ssl/) for more detail.
 
