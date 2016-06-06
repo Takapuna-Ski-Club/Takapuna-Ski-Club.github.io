@@ -212,8 +212,13 @@ button {
 
 
 /**
- * Fix the availability calendar on narrower screens.
+ * Availability calendar
  */
+#availcalendar td.datecell[onclick] {
+  cursor: hover;
+}
+
+/* Fix the availability calendar on narrower screens. */
 #availcalendar .date {
   height: auto;
 }
