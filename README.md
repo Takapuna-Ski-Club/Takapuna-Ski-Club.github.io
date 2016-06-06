@@ -4,7 +4,7 @@
 
 ## Install and deploy
 
-Em Development deploys the following to our managed instalation of Club System;
+Em Dev deploys the following to our managed instalation of Club System;
 
 - `source/takapuna.css`
 - `source/leftimage.jpg`
