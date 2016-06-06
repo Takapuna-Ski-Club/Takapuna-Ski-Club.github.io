@@ -220,7 +220,7 @@ form[action="default.aspx"] #leftcontainer {
  * Availability calendar
  */
 #availcalendar td.datecell[onclick] {
-  cursor: hover;
+  cursor: pointer;
 }
 
 /* Fix the availability calendar on narrower screens. */
