@@ -77,6 +77,10 @@ button {
   float: right;
   width: 25%;
 }
+/* Wider sidebar on homepage for login form. */
+form[action="default.aspx"] #leftcontainer {
+  width: 40%;
+}
 /* Remove the grey background for the left sidebar. */
 #pagecontainer {
   background: transparent none;
@@ -142,10 +146,11 @@ button {
   background: transparent;
   font-family: 'Montserrat', sans-serif;
   font-size: inherit;
-  width: auto;
+  width: 100%;
+  padding: 0;
 }
 #loginform .textbox {
-  width: 100%;
+  width: 99%;
 }
 #loginform .helplinks a {
   display: block;
