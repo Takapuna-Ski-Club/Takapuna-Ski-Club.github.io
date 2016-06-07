@@ -32,6 +32,23 @@ h1 {
   border-bottom: 0 none;
 }
 
+h2,h3,h4,h5,h6 {
+  font-size: 150%;
+  font-weight: normal;
+  color: black;
+  line-height: 300%;
+}
+h3 {
+  font-size: 135%;
+}
+h4 {
+  font-size: 120%;
+}
+h5,h6 {
+  font-size: 110%;
+}
+
+
 input,
 select,
 button {
