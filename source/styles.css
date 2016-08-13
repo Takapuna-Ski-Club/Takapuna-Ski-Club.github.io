@@ -244,3 +244,8 @@ form[action="default.aspx"] #leftcontainer {
 #availcalendar .date {
   height: auto;
 }
+
+/* Many forms are wider than tablet screens, even in landscape mode.  Make them scrollable. */
+#editform {
+  overflow: auto;
+}
