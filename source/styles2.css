@@ -123,7 +123,7 @@ form[action="default.aspx"] #leftcontainer {
 /**
  * Main navigation menu.
  */
-#topnavcontainer li {
+#topnavcontainer {
   /* Make whitespace consistent. */
   margin: 5px 0;
   /* Disable background image to remove the 3D effect. */
@@ -177,14 +177,14 @@ form[action="default.aspx"] #leftcontainer {
 /**
  * Logout form.
  */
-#logoutform {
+#leftcontainer #logoutform {
   width: auto;
   float: none;
   padding: 1em 2em 1.5em;
   font: inherit;
 }
 
-#logoutform * {
+#leftcontainer #logoutform * {
   display: inline;
 }
 
