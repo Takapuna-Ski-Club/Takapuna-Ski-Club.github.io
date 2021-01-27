@@ -207,13 +207,13 @@ form[action="default.aspx"] #leftcontainer {
 /**
  * Sidebar menu.
  */
-#leftnav .level1,
-#leftnav .level1 li {
+#leftnav .level2,
+#leftnav .level2 li {
   float: none;
   width: auto;
   background-color: #eee;
 }
-#leftnav .level2 li {
+#leftnav .level3 li {
   padding: 0 0 0 1em;
 }
 #leftnav li a {
@@ -227,7 +227,7 @@ form[action="default.aspx"] #leftcontainer {
   background-color: #39c;
 }
 #leftnav li a.selected,
-#leftnav .level2 li a.selected {
+#leftnav .level3 li a.selected {
   color: #39c;
   background-color: white;
 }
