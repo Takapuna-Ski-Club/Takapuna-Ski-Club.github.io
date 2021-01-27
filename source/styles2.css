@@ -123,20 +123,20 @@ form[action="default.aspx"] #leftcontainer {
 /**
  * Main navigation menu.
  */
-#topnavcontainer {
+#topnavcontainer li {
   /* Make whitespace consistent. */
   margin: 5px 0;
   /* Disable background image to remove the 3D effect. */
   background: transparent none;
 }
-#topnavcontainer {
+#topnavcontainer li {
   /* Make whitespace consistent. */
   border-left-width: 5px;
   height: auto;
 }
 
 /* Link styles. */
-#topnavcontainer a {
+#topnavcontainer li a {
   height: auto;
   background: #39c;
   color: #fff;
@@ -146,11 +146,11 @@ form[action="default.aspx"] #leftcontainer {
   padding-bottom: 0.2em;
   font-family: 'Montserrat', sans-serif;
 }
-#topnavcontainer a:hover {
+#topnavcontainer li a:hover {
   background: #069 none;
 }
-#topnavcontainer a:active,
-#topnavcontainer a.selected {
+#topnavcontainer li a:active,
+#topnavcontainer li a.selected {
   color: #39c;
   background: #eee;
 }
