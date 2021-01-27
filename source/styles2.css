@@ -129,14 +129,14 @@ form[action="default.aspx"] #leftcontainer {
   /* Disable background image to remove the 3D effect. */
   background: transparent none;
 }
-#topnavcontainer td {
+#topnavcontainer {
   /* Make whitespace consistent. */
   border-left-width: 5px;
   height: auto;
 }
 
 /* Link styles. */
-#topnavcontainer td a {
+#topnavcontainer a {
   height: auto;
   background: #39c;
   color: #fff;
@@ -146,11 +146,11 @@ form[action="default.aspx"] #leftcontainer {
   padding-bottom: 0.2em;
   font-family: 'Montserrat', sans-serif;
 }
-#topnavcontainer td a:hover {
+#topnavcontainer a:hover {
   background: #069 none;
 }
-#topnavcontainer td a:active,
-#topnavcontainer td a.selected {
+#topnavcontainer a:active,
+#topnavcontainer a.selected {
   color: #39c;
   background: #eee;
 }
